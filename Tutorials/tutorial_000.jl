@@ -36,7 +36,7 @@ Pkg.add(PackageSpec(name="Plots", version="1.2.6"))
 Pkg.add(PackageSpec(name="Plotly", version="0.3.0"))
 
 # ╔═╡ Cell order:
-# ╠═053496ea-a4e1-11ea-39e4-fd2d8e0ae803
+# ╟─053496ea-a4e1-11ea-39e4-fd2d8e0ae803
 # ╠═25053b8a-a4e3-11ea-354c-cf32aa336dcb
 # ╠═38ad4074-a4e3-11ea-0070-930a0e5743f9
 # ╠═40be7e86-a4e3-11ea-18ed-c7a75df64e83
