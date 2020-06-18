@@ -58,7 +58,7 @@ julia> notebook(detached=true)
 
 or
 
-```julia
+```julia 
 julia> using IJulia
 
 julia> jupyterlab(detached=true)
@@ -66,9 +66,54 @@ julia> jupyterlab(detached=true)
 
 This frees the Julia REPL from being stuck on a Jupyter process and puts it in the background.
 
+# Tutorial Index
 
+Here is a list of available tutorials based around sections that come from the _Introduction to Linear Algebra_ textbook [1]:
+
+## **Section 1: Introduction to Vectors**
+
+## **Section 2: Solving Linear Equations**
+
+## **Section 3: Vector Spaces and Subspaces**
+
+## **Section 4: Orthogonality**
+
+## **Section 5: Determinants**
+
+## **Section 6: Eigenvalues and Eigenvectors**
+
+## **Section 7: The Singular Value Decomposition (SVD)**
+
+## **Section 8: Linear Transformations**
+
+## **Section 9: Complex Vectors and Matrices**
+
+## **Section 10: Applications**
+
+## **Section 11: Numerical Linear Algebra**
+
+## **Section 12: Linear Algebra in Probability & Statistics**
+
+# Misc
+
+## Julia Tips
+
+If one does not want to have to remember to activate the Julia environment whenever activating their REPL in the tutorial directory, one can appened this to their `startup.jl` file:
+
+```julia 
+using Pkg
+
+if isfile("Project.toml") && isfile("Manifest.toml")
+    Pkg.activate(".")
+end
+```
+
+It will automatically activate an environment based on present project `.toml` files. [2]
 
 ## References
 
 [1] G. Strang, Introduction to Linear Algebra, 5th ed. Wellesey - Cambridge Press, 2016.
+
+[2] Bogumił Kamiński, “Activating project environment in Julia REPL automatically,” May 10, 2020. https://bkamins.github.io/julialang/2020/05/10/julia-project-environments.html (accessed Jun. 18, 2020).
+
 
