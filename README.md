@@ -10,7 +10,7 @@ This repository contains tutorials that go alongside the textbook _Introduction 
 
 ## Cloning Project
 
-Each tutorial is contained in a Pluto notebook. To set-up this tutorial repository, clone the repository:
+Each tutorial is contained in a Jupyter notebook. To set-up this tutorial repository, clone the repository:
 
 ```unix
 git clone https://github.com/TheCedarPrince/LinAlgTuts.jl
@@ -71,6 +71,10 @@ This frees the Julia REPL from being stuck on a Jupyter process and puts it in t
 Here is a list of available tutorials based around sections that come from the _Introduction to Linear Algebra_ textbook [1]:
 
 ## **Section 1: Introduction to Vectors**
+
+- **Section 1.1: Vectors and Linear Combination** - How linear combination operates. How to think geometrically about vectors.
+- **Section 1.2: Lengths and Dot Products** - How to find the dot product of two given vectors. Discussion about the special results of a dot product. How to find the length of a vector and its characteristics.
+- **Section 1.3: Matrices** 
 
 ## **Section 2: Solving Linear Equations**
 
